@@ -79,7 +79,7 @@ def registrar():
     mysql.connection.commit()
     cursor.close()
 
-    return redirect(url_for("formulario"))
+    return redirect(url_for("index"))
 
 # -----------------------------
 if __name__ == "__main__":
